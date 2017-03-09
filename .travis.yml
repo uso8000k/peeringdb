@@ -1,10 +1,14 @@
 language: python
+
 python:
-- '2.7'
+  - '2.7'
+
 install:
-- pip install requests
+  - pip install requests
+
 script:
-- python ./peeringdb.py
+  - python ./peeringdb.py
+
 notifications:
   slack:
     secure: avW6Zdp7fjEso9PeCn5ZAZETpeSyd5tD9nFNnjRMGIOmik9Cp0IvGjGltkT5ykOC2+OkRAcAyeJq7F75gLGw4X8pzWn5vjpKm8ZJZS7DTvHnH0s4aWJzQehsWYWOHSSkYMuoBkljUBMs++p7a/LIvUKAav/xc1ub1FugFtN7CLEXGXwrIwRKigA5sKjAVFQYg3ChZnA5curDsqkpxKxkN9CABR22Vxn6fq77ia//vcI09K1ug6guJtAbQ2JQBbL1FDGuWCzlLrGisal1Ewiqhf0lsJKZUcMpmkSfu2Vuenw7DC+658dhK/ux8kxulawXYN8C8uwhhswjXphgQV37mBXJjVM6pfvqId9z0NylPbFDq++jGGxsNhIECUc8GODdL34l0YANICmxA+1heSv1CPGYIdGcVH1rOoVu5HzPbHdxHL2rl9DedgLP8oHBbQaC1mI1K/9S4Xhn7km7I9Qa8qztylCaeViJThaj6w2gjhWc5bJfdps2quqM7fcFCfI0GNIC4NJklOO+HcGTShnF+1tyirdABH4ArApW1wKjiAPLKCCupMtGKrBOi/Ytv7Yl3cJ7EXpmtyqnzcs/PgxYJaw2P7flmwBApUmeZ7tEQFHW1smzk8WnSDIbA31dPBOKnCjDwpVSzgybOKgLLcyD8/GmYuwuJmbm3YHMK3N2H8I=
